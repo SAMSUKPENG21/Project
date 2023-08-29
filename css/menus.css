@@ -1,0 +1,227 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        background-color: #B1454A;
+    }
+
+    .dropdown-item {
+        padding: 0 5px;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        width: 90% !important;
+        background-color: #A03E41;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .dropdown-item:hover {
+        background-color: white !important;
+        /* 悬停时的背景颜色 */
+        color: black !important;
+        /* 悬停时的文本颜色 */
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+        min-width: auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        padding: 0 35px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: white !important;
+        /* 悬停时的背景颜色 */
+        color: black !important;
+        /* 悬停时的文本颜色 */
+    }
+}
+
+.collapse {
+    margin-left: 50px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #B1454A;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.dropdown-item:hover {
+    background-color: white !important;
+    /* 悬停时的背景颜色 */
+    color: black !important;
+    /* 悬停时的文本颜色 */
+}
+
+.dropdown-item {
+    color: white;
+    /* 文本颜色 */
+}
+
+.container-fluid {
+    background-color: #B1454A;
+}
+
+.logo {
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.logo2 {
+    font-family: 'Playfair Display SC', serif;
+    color: #B1454A;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.footertext {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.menus {
+    color: #B1454A;
+    font-family: 'Playfair Display';
+}
+
+.btitle {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ptitle {
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.menu-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400px;
+    color: rgba(232, 232, 232, 0.5);
+    z-index: -1;
+    font-family: 'Playfair Display';
+}
+
+#mb {
+    position: relative;
+}
+
+.ourmenus {
+    position: absolute;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(177, 69, 74, 0.5);
+    color: white;
+    padding: 40px;
+    font-size: 24px;
+    border-radius: 20px;
+    height: 70%;
+    width: 25%;
+}
+
+.borderb div a {
+    text-decoration: none;
+    color: white;
+}
+
+.borderb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    border-radius: 20px;
+    height: 100%;
+    font-family: 'Playfair Display SC';
+}
+
+.menu-item {
+    border-bottom: 1px solid black;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+}
+
+.icon div {
+    padding-right: 25px;
+}
+
+.icon div a img {
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 768px) {
+    .menu-text {
+        top: 36%;
+        font-size: 230px;
+    }
+
+    .ourmenus {
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        height: 90%;
+        width: 95%;
+    }
+    .newline {
+        display: block;
+    }
+    .menu-item {
+        margin-bottom: 8px;
+        padding-bottom: 0px;
+    }
+
+    .logo2 {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .footertext {
+        font-size: 15px;
+    }
+
+    .icon div {
+        padding-right: 10px;
+    }
+
+    .ptitle {
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .btitle {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}

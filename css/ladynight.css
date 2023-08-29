@@ -1,0 +1,246 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ 
+        background-color: #B1454A;
+    }
+    .dropdown-item{
+        padding: 0 5px;
+    }
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block;
+        width: 90% !important;
+        background-color: #A03E41;
+        font-size: 15px;
+        text-align: center;
+    }
+    .dropdown-item:hover {
+        background-color: white!important; /* 悬停时的背景颜色 */
+        color: black !important; /* 悬停时的文本颜色 */
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top:0; 
+        min-width: auto;
+        width: auto;
+        max-width: none;
+    }
+    .navbar-expand-lg .navbar-nav{
+        flex-direction: row;
+        padding: 0 35px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        flex-direction: row;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+	.dropdown-item.active, .dropdown-item:active{
+		background-color: white!important; /* 悬停时的背景颜色 */
+		color: black !important; /* 悬停时的文本颜色 */
+	}
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.navbar-nav .dropdown-menu{
+	background-color: #B1454A;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.dropdown-item:hover {
+    background-color: white!important; /* 悬停时的背景颜色 */
+    color: black!important; /* 悬停时的文本颜色 */
+}
+.dropdown-item {
+    color: white; /* 文本颜色 */
+}
+.menu{
+    background-color: #B1454A;
+}
+.logo{
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.content{
+    width: 99.1% !important;
+}
+
+.col{
+    margin-top: 41px;
+}
+
+.row{
+    font-family: 'Playfair Display', serif;
+}
+
+.img1{
+    border-right: solid;
+}
+
+.offer{
+    background-color: #FFEAEE;
+    padding: 130px 0px;
+}
+
+#event{
+    font-size: 100px;
+    color: #B1454A;
+}
+
+#event2{
+    font-size: 100px;
+}
+
+.img2{
+    border-left: solid;
+}
+
+.discount{
+    font-size: 100px;
+    color: #B1454A;
+}
+
+.discount2{
+    font-size: 60px;
+}
+
+.title{
+    font-size: 100px;
+    margin: 0px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.desc{
+    margin-bottom: 100px;
+}
+
+
+.date{
+    font-weight: bold;
+    margin-bottom: 250px;
+}
+
+.footerlogo{
+    font-family: 'Playfair Display SC', serif;
+    color: #B1454A;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+@media all and (max-width: 770px) {
+    #event{
+        font-size: 70px;
+    }
+
+    #event2{
+        font-size: 70px;
+    }
+
+    .fb{
+        width: 30px !important;
+    }
+
+    .ig{
+        width: 30px !important;
+    }
+
+    .footerlogo{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 530px) {
+
+    body{
+        width: 100% !important;
+    }
+
+    .content{
+        width: 100% !important;
+    }
+
+    #event{
+        font-size: 40px;
+    }
+
+    #event2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .up{
+        flex-direction: column;
+        position: relative;
+        width: 103.5%;
+    }
+
+    .up:before {
+        content: "";
+        position: absolute;
+        left: 14%;
+        bottom: 0;
+        height: 15px;
+        width: 70%;
+        border-bottom: 3px solid #000;
+    }
+
+    .down{
+        flex-direction: column-reverse;
+        width: 100% !important;
+    }
+
+    .col{
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .img1{
+        width: 100%;
+        margin-bottom: 20px;
+        border: 0px;
+    }
+
+    .img2{
+        width: 100%;
+        margin: 20px 0px;
+        border: 0px;
+    }
+
+    .fb{
+        width: 20px !important;
+    }
+
+    .ig{
+        width: 20px !important;
+    }
+
+    .footerlogo{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+
+}

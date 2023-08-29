@@ -1,0 +1,303 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        background-color: #B1454A;
+    }
+
+    .dropdown-item {
+        padding: 0 5px;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        width: 90% !important;
+        background-color: #A03E41;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .dropdown-item:hover {
+        background-color: white !important;
+        /* 悬停时的背景颜色 */
+        color: black !important;
+        /* 悬停时的文本颜色 */
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+        min-width: auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        padding: 0 35px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: white !important;
+        /* 悬停时的背景颜色 */
+        color: black !important;
+        /* 悬停时的文本颜色 */
+    }
+
+    .meals-text {
+        font-size: 150px;
+        top: 40%;
+    }
+
+    .meals {
+        margin-bottom: 60px;
+    }
+}
+
+.collapse {
+    margin-left: 50px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #B1454A;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.dropdown-item:hover {
+    background-color: white !important;
+    /* 悬停时的背景颜色 */
+    color: black !important;
+    /* 悬停时的文本颜色 */
+}
+
+.dropdown-item {
+    color: white;
+    /* 文本颜色 */
+}
+
+.container-fluid {
+    background-color: #B1454A;
+}
+
+.logo {
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.logo2 {
+    font-family: 'Playfair Display SC', serif;
+    color: #B1454A;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.footertext {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.meals {
+    color: #B1454A;
+    font-family: 'Playfair Display';
+}
+
+.meald {
+    background-color: #B1454A;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.meald2 {
+    position: relative;
+    /* Adjust the top margin */
+}
+
+.bento {
+    height: auto;
+}
+
+.head h2 {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.headbento h2 {
+    color: #B1454A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.row {
+    padding-bottom: 200px;
+}
+
+.meals-text {
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 270px;
+    color: rgba(232, 232, 232, 0.5);
+    z-index: -1;
+    font-family: 'Playfair Display';
+}
+
+.head,
+.headbento {
+    font-family: 'Playfair Display';
+}
+
+.title {
+    margin-top: 160px;
+    margin-bottom: 185px;
+}
+
+
+.sd {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    height: 100%;
+    padding-top: 60px;
+    margin: 20px;
+    /* Add margin for spacing */
+}
+
+.sd2 {
+    background-color: rgba(181, 173, 173, 0.2);
+    text-align: center;
+    height: 430px;
+    padding-top: 60px;
+}
+
+.img img {
+    height: 150px;
+}
+
+.imgd {
+    color: white;
+    margin-top: 80px;
+}
+
+.imgd2 {
+    margin-top: 80px;
+    color: #B1454A;
+}
+
+.imgd,
+.imgd2 {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.word {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(20%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.meiwei,
+.reliao {
+    color: rgba(228, 216, 217, 0.2);
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+}
+
+.meiwei {
+    text-align: start;
+    padding-left: 60px;
+}
+
+.reliao {
+    text-align: end;
+    padding-right: 45px;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    border: none;
+}
+
+.modal-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon div {
+    padding-right: 25px;
+}
+
+.icon div a img {
+    width: 50px;
+    height: 50px;
+}
+
+@media all and (max-width: 768px) {
+    .meals-text {
+        top: 40%;
+        font-size: 150px;
+    }
+
+    .meals {
+        margin-bottom: 60px;
+    }
+    .newline {
+        display: block;
+    }
+    .meiwei {
+        padding-left: 20px;
+        padding-top: 100px;
+    }
+
+    .reliao {
+        text-align: end;
+        padding-right: 20px;
+        padding-top: 500px;
+    }
+
+    .logo2 {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .footertext {
+        font-size: 15px;
+    }
+
+    .icon div {
+        padding-right: 10px;
+    }
+
+    #tamago {
+        height: 10%;
+    }
+
+    .title {
+        margin-top: 175px;
+    }
+
+    .img img {
+        height: 130px;
+    }
+}
