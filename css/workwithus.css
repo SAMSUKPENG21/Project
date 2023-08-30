@@ -151,6 +151,9 @@ input#question1{
 label#question2{
     width: 40%
 }
+#question2{
+    margin: 0 5px;
+}
 #position{
     padding: 0 0 20px 5px;
 }
