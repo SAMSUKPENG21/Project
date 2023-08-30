@@ -253,7 +253,7 @@
 @media all and (max-width: 768px) {
     .beverages-text {
         top: 40%;
-        font-size: 150px;
+        font-size: 120px;
     }
     .newline {
         display: block;
