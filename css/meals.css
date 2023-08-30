@@ -289,12 +289,17 @@
         padding-right: 10px;
     }
 
-    #tamago {
-        height: 10%;
-    }
-
     .title {
         margin-top: 175px;
+    }
+
+    .img img {
+        height: 130px;
+    }
+
+    .tamago,
+    .salmon {
+        width: 190px;
     }
 
     .img img {
