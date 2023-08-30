@@ -110,16 +110,16 @@ p{
 .time{
     margin-bottom: 80px;
     margin-top: 50px;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .price{
-    font-size: 45px;
+    font-size: 30px;
     color: #B1454A;
 }
 
 .man{
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .dinner{
@@ -129,17 +129,17 @@ p{
 .time2{
     margin-bottom: 80px;
     margin-top: 50px;
-    font-size: 45px;
+    font-size: 35px;
     color: white;
 }
 
 .price2{
-    font-size: 45px;
+    font-size: 30px;
     color: #FFF0DE;
 }
 
 .man2{
-    font-size: 45px;
+    font-size: 30px;
     color: white;
 }
 
@@ -164,19 +164,8 @@ p{
         font-size: 40px;
     }
 
-    .date{
-        font-size: 50px;
-    }
     .row{
         flex-direction: column;
-    }
-
-    .price{
-        font-size: 30px;
-    }
-    
-    .man{
-        font-size: 30px;
     }
 
     .fb{
@@ -217,6 +206,30 @@ p{
 
     .date{
         font-size: 30px;
+    }
+
+    .time{
+        font-size: 25px;
+    }
+
+    .man{
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 15px;
+    }
+
+    .time2{
+        font-size: 25px;
+    }
+
+    .man2{
+        font-size: 15px;
+    }
+
+    .price2{
+        font-size: 15px;
     }
 
     .fb{
