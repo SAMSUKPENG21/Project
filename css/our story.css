@@ -3,7 +3,7 @@
     font-size: 30px;
 
 }
-.footerpart {
+#footerpart {
     display: flex;
     padding: 3% 5% 2%;
     align-items: center;
@@ -12,22 +12,22 @@
     flex-wrap: nowrap;
 }
 
-.footerlogo {
+#footerlogo {
     font-size: 40px;
     color: #B1454A;
     font-weight: 600;
     font-family: 'Playfair Display SC', serif;
 }
 
-.footertext {
+#footertext {
     display: flex;
     font-size: 25px;
 }
-.footericon{
+#footericon{
     display: flex;
     flex-wrap: nowrap;
 }
-.footericon a {
+#footericon a {
     padding: 0 5px;
 }
 
