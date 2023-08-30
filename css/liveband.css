@@ -177,14 +177,24 @@ p{
     }
 
     .footerlogo{
-        font-size: 20px;
+        font-size: 15px;
+        padding-left: 20px;
+        width: 80px;
     }
 
     .copyright{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .footer{
         flex-direction: row;
+    }
+
+    .social{
+        padding-right: 20px;
+    }
+
+    .btn{
+        padding: 0px !important;
     }
 }
