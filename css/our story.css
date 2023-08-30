@@ -4,6 +4,30 @@
 
 }
 
+.logo {
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.logo2 {
+    font-family: 'Playfair Display SC', serif;
+    color: #B1454A;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.footertext {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
 #footerpart {
     display: flex;
     padding: 3% 5% 2%;

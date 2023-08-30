@@ -52,6 +52,11 @@
     margin-left: 50px;
 }
 
+.collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
 .navbar-nav .dropdown-menu {
     background-color: #B1454A;
 }

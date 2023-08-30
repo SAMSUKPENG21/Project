@@ -49,6 +49,12 @@
 }
 
 .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.collapse {
     margin-left: 50px;
 }
 
