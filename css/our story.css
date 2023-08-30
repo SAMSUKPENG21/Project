@@ -3,6 +3,42 @@
     font-size: 30px;
 
 }
+.logo {
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.logo2 {
+    font-family: 'Playfair Display SC', serif;
+    color: #B1454A;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.footertext {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#footerpart {
+    display: flex;
+    padding: 90px 20px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.koyn{
+    font-family: 'Playfair Display SC', serif;
+}
+
 #footerpart {
     display: flex;
     padding: 3% 5% 2%;
@@ -34,8 +70,6 @@
 .icona {
     color: white;
 }
-
-
 .collapse {
     display: flex;
     flex-direction: row;
@@ -98,6 +132,40 @@
         left: 40px;
     }
 }
+#footerlogo {
+        font-size: 35px;
+    }
+
+    #footertext {
+        font-size: 20px;
+        display: flex;
+        line-height: 1;
+        align-items: center;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    #footerpart {
+        padding: 6% 1% 2% 5%;
+    }
+    .newline {
+        display: block;
+    }
+ .logo2 {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .footertext {
+        font-size: 15px;
+    }
+
+    .icon div {
+        padding-right: 10px;
+    }
 
 
 .timeline-item {
@@ -163,6 +231,21 @@
         align-self: baseline !important;
         width: 100%;
         padding: 0 30px 150px 80px;
+    }
+     #footertext {
+        display: flex;
+        font-size: 20px;
+    }
+    #footertext {
+        display: flex;
+        font-size: 15px;
+        /* text-align: center; */
+        line-height: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footerlogo {
+        font-size: 30px;
     }
 
     .timeline-item:before {
