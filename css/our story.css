@@ -3,7 +3,6 @@
     font-size: 30px;
 
 }
-
 .logo {
     font-family: 'Playfair Display SC', serif;
     color: white;
@@ -26,38 +25,6 @@
     color: black;
     font-size: 20px;
     margin-top: 5px;
-}
-
-.footerpart {
-    display: flex;
-    padding: 3% 5% 2%;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    flex-wrap: nowrap;
-}
-
-.footerlogo {
-    font-size: 40px;
-    color: #B1454A;
-    font-weight: 600;
-    font-family: 'Playfair Display SC', serif;
-}
-
-.footertext {
-    display: flex;
-    font-size: 25px;
-}
-.footericon{
-    display: flex;
-    flex-wrap: nowrap;
-}
-.footericon a {
-    padding: 0 5px;
-}
-
-.icona {
-    color: white;
 }
 
 .collapse {
